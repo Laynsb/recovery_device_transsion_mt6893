@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/tran/mt6893
+LOCAL_PATH := device/tecno/CK8n
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true

@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from CK8n device
-$(call inherit-product, device/tran/mt6893/device.mk)
+$(call inherit-product, device/tecno/CK8n/device.mk)
 
 PRODUCT_DEVICE := CK8n
 PRODUCT_NAME := twrp_CK8n
