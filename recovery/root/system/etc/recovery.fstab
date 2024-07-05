@@ -15,8 +15,6 @@ system                                              /system                   ex
 system_ext                                          /system_ext               ext4       ro                        wait,slotselect,avb,logical,first_stage_mount
 vendor                                              /vendor                   ext4       ro                        wait,slotselect,avb,logical,first_stage_mount
 product                                             /product                  ext4       ro                        wait,slotselect,avb,logical,first_stage_mount
-vendor_dlkm                                         /vendor_dlkm              ext4       ro                        wait,slotselect,avb,logical,first_stage_mount
-odm_dlkm                                            /odm_dlkm                 ext4       ro                        wait,slotselect,avb,logical,first_stage_mount
 
 # Userdata-related Partitions
 /dev/block/by-name/misc                            /misc                      emmc                                defaults defaults
